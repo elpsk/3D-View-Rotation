@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABD7271C1783190900C01677 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD7271B1783190900C01677 /* UIKit.framework */; };
+		ABD7271E1783190900C01677 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD7271D1783190900C01677 /* Foundation.framework */; };
+		ABD727201783190900C01677 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD7271F1783190900C01677 /* CoreGraphics.framework */; };
+		ABD727261783190900C01677 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABD727241783190900C01677 /* InfoPlist.strings */; };
+		ABD727281783190900C01677 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD727271783190900C01677 /* main.m */; };
+		ABD7272C1783190900C01677 /* APAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD7272B1783190900C01677 /* APAppDelegate.m */; };
+		ABD7272E1783190900C01677 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD7272D1783190900C01677 /* Default.png */; };
+		ABD727301783190900C01677 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD7272F1783190900C01677 /* Default@2x.png */; };
+		ABD727321783190900C01677 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD727311783190900C01677 /* Default-568h@2x.png */; };
+		ABD727351783190900C01677 /* APViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD727341783190900C01677 /* APViewController.m */; };
+		ABD727381783190900C01677 /* APViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABD727361783190900C01677 /* APViewController.xib */; };
+		ABD7273F17831F3800C01677 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD7273E17831F3800C01677 /* QuartzCore.framework */; };
+		ABF2459B17832C2E002821AB /* APCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF2459A17832C2E002821AB /* APCustom.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ABD727181783190900C01677 /* 3dRotate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3dRotate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD7271B1783190900C01677 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ABD7271D1783190900C01677 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABD7271F1783190900C01677 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ABD727231783190900C01677 /* 3dRotate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "3dRotate-Info.plist"; sourceTree = "<group>"; };
+		ABD727251783190900C01677 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABD727271783190900C01677 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABD727291783190900C01677 /* 3dRotate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "3dRotate-Prefix.pch"; sourceTree = "<group>"; };
+		ABD7272A1783190900C01677 /* APAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APAppDelegate.h; sourceTree = "<group>"; };
+		ABD7272B1783190900C01677 /* APAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APAppDelegate.m; sourceTree = "<group>"; };
+		ABD7272D1783190900C01677 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ABD7272F1783190900C01677 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		ABD727311783190900C01677 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ABD727331783190900C01677 /* APViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APViewController.h; sourceTree = "<group>"; };
+		ABD727341783190900C01677 /* APViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APViewController.m; sourceTree = "<group>"; };
+		ABD727371783190900C01677 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/APViewController.xib; sourceTree = "<group>"; };
+		ABD7273E17831F3800C01677 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ABF2459917832C2E002821AB /* APCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCustom.h; sourceTree = "<group>"; };
+		ABF2459A17832C2E002821AB /* APCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCustom.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABD727151783190900C01677 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD7273F17831F3800C01677 /* QuartzCore.framework in Frameworks */,
+				ABD7271C1783190900C01677 /* UIKit.framework in Frameworks */,
+				ABD7271E1783190900C01677 /* Foundation.framework in Frameworks */,
+				ABD727201783190900C01677 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABD7270F1783190900C01677 = {
+			isa = PBXGroup;
+			children = (
+				ABD727211783190900C01677 /* 3dRotate */,
+				ABD7271A1783190900C01677 /* Frameworks */,
+				ABD727191783190900C01677 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABD727191783190900C01677 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABD727181783190900C01677 /* 3dRotate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABD7271A1783190900C01677 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABD7271B1783190900C01677 /* UIKit.framework */,
+				ABD7271D1783190900C01677 /* Foundation.framework */,
+				ABD7271F1783190900C01677 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABD727211783190900C01677 /* 3dRotate */ = {
+			isa = PBXGroup;
+			children = (
+				ABD7272A1783190900C01677 /* APAppDelegate.h */,
+				ABD7272B1783190900C01677 /* APAppDelegate.m */,
+				ABD727331783190900C01677 /* APViewController.h */,
+				ABD727341783190900C01677 /* APViewController.m */,
+				ABD727361783190900C01677 /* APViewController.xib */,
+				ABD727221783190900C01677 /* Supporting Files */,
+				ABF2459917832C2E002821AB /* APCustom.h */,
+				ABF2459A17832C2E002821AB /* APCustom.m */,
+			);
+			path = 3dRotate;
+			sourceTree = "<group>";
+		};
+		ABD727221783190900C01677 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABD7273E17831F3800C01677 /* QuartzCore.framework */,
+				ABD727231783190900C01677 /* 3dRotate-Info.plist */,
+				ABD727241783190900C01677 /* InfoPlist.strings */,
+				ABD727271783190900C01677 /* main.m */,
+				ABD727291783190900C01677 /* 3dRotate-Prefix.pch */,
+				ABD7272D1783190900C01677 /* Default.png */,
+				ABD7272F1783190900C01677 /* Default@2x.png */,
+				ABD727311783190900C01677 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABD727171783190900C01677 /* 3dRotate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABD7273B1783190900C01677 /* Build configuration list for PBXNativeTarget "3dRotate" */;
+			buildPhases = (
+				ABD727141783190900C01677 /* Sources */,
+				ABD727151783190900C01677 /* Frameworks */,
+				ABD727161783190900C01677 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 3dRotate;
+			productName = 3dRotate;
+			productReference = ABD727181783190900C01677 /* 3dRotate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABD727101783190900C01677 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AP;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Alberto Pasca";
+			};
+			buildConfigurationList = ABD727131783190900C01677 /* Build configuration list for PBXProject "3dRotate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABD7270F1783190900C01677;
+			productRefGroup = ABD727191783190900C01677 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABD727171783190900C01677 /* 3dRotate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABD727161783190900C01677 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD727261783190900C01677 /* InfoPlist.strings in Resources */,
+				ABD7272E1783190900C01677 /* Default.png in Resources */,
+				ABD727301783190900C01677 /* Default@2x.png in Resources */,
+				ABD727321783190900C01677 /* Default-568h@2x.png in Resources */,
+				ABD727381783190900C01677 /* APViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABD727141783190900C01677 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD727281783190900C01677 /* main.m in Sources */,
+				ABD7272C1783190900C01677 /* APAppDelegate.m in Sources */,
+				ABD727351783190900C01677 /* APViewController.m in Sources */,
+				ABF2459B17832C2E002821AB /* APCustom.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABD727241783190900C01677 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABD727251783190900C01677 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ABD727361783190900C01677 /* APViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABD727371783190900C01677 /* en */,
+			);
+			name = APViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABD727391783190900C01677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABD7273A1783190900C01677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABD7273C1783190900C01677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "3dRotate/3dRotate-Prefix.pch";
+				INFOPLIST_FILE = "3dRotate/3dRotate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ABD7273D1783190900C01677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "3dRotate/3dRotate-Prefix.pch";
+				INFOPLIST_FILE = "3dRotate/3dRotate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABD727131783190900C01677 /* Build configuration list for PBXProject "3dRotate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD727391783190900C01677 /* Debug */,
+				ABD7273A1783190900C01677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABD7273B1783190900C01677 /* Build configuration list for PBXNativeTarget "3dRotate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD7273C1783190900C01677 /* Debug */,
+				ABD7273D1783190900C01677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABD727101783190900C01677 /* Project object */;
+}
